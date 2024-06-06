@@ -7,58 +7,214 @@
 <!-- css boostrap link -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body>
-<style>
-    te{
-        text-decoration: none;
-    }
-</style>
-<div class="container">
 
-<header>
-    <div class="row">
-        <div class="col">
-            <h1>Image Gallary</h1>
+<body class="bg-secondary">
+
+    <header class="bg-dark text-white mb-5 p-3">
+
+        <div class="row ">
+            <div class="col col-12 col-sm-6">
+                <h1>Image Gallary</h1>
+            </div>
+            <div class="col col-12 col-sm-6 mt-3 d-flex justify-content-start justify-content-sm-end justify-content-md-end justify-content-lg-end justify-content-xl-end">
+                <nav>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a class="text-white text-decoration-none " href="#">Home</a></li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none " href="#">About</a></li>
+                    <li class="list-inline-item"><a class="text-white text-decoration-none " href="#">contact</a></li>
+                </ul>
+            </nav>
+            </div>
         </div>
-        <div class="col">
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">contact</a></li>
-            </ul>
-        </div>
-    </div>
-</header>
-
-    <div class="row">
-        <!-- image -1 -->
-        <div class="col">
-        <img src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
-        <h2>Image-1</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
-      </div>
-     <!-- image -2 -->
-      <div class="col">
-        <img src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
-        <h2>Image-1</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
-      </div>
-       <!-- image -3 -->
-       <div class="col">
-        <img src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
-        <h2>Image-1</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
-      </div>
-       <!-- image -4-->
-       <div class="col">
-        <img src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
-        <h2>Image-1</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
-      </div>
-
+    </header>
+<div class="container-fluid">
+    <div class="card bg-info text-white">
+    <h1>Simple Image Gallery With Boostrap 5</h1>
+    <div class="card-body">
+    <p>Here you view recent posts!</p>
     </div>
 </div>
+    <div class="row m-4">
+        <!-- image -1 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3  col-xl-2 mt-3">
+            <div class="card">
+        <img class="img-fluid rounded" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
+  
+    <div class="card-body">
+        <h2 >Image-1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
+    </div>
+</div>
+    </div>
+    <!-- image-2 -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3">
+        <div class="card">
+    <img class="img-fluid rounded" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
+
+<div class="card-body">
+    <h2 >Image-2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
+</div>
+</div>
+</div>
+<!-- image=-3 -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3">
+    <div class="card">
+<img class="img-fluid rounded" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
+
+<div class="card-body">
+<h2 >Image-3</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
+</div>
+</div>
+</div>
+<!-- image-4 -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3">
+    <div class="card">
+<img class="img-fluid rounded" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
+
+<div class="card-body">
+<h2 >Image-4</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
+</div>
+</div>
+</div>
+<!-- image-5 -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3">
+            <div class="card">
+        <img class="img-fluid rounded" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
+  
+    <div class="card-body">
+        <h2 >Image-5</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
+    </div>
+</div>
+    </div>
+   
+<!-- image-6 -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3">
+    <div class="card">
+<img class="img-fluid rounded" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
+
+<div class="card-body">
+<h2 >Image-6</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
+</div>
+</div>
+</div>
+<!-- image--7 -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3">
+    <div class="card">
+<img class="img-fluid rounded" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
+
+<div class="card-body">
+<h2 >Image-7</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
+</div>
+</div>
+</div>
+<!-- image 8 -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mt-3">
+    <div class="card">
+<img class="img-fluid rounded" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
+
+<div class="card-body">
+<h2 >Image-8</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
+</div>
+</div>
+</div>
+<!-- image 9 -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3  col-xl-2 mt-3">
+    <div class="card">
+<img class="img-fluid rounded" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
+
+<div class="card-body">
+<h2 >Image-1</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
+</div>
+</div>
+</div>
+<!-- image-10 -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3  col-xl-2 mt-3">
+    <div class="card">
+<img class="img-fluid rounded" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
+
+<div class="card-body">
+<h2 >Image-1</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
+</div>
+</div>
+</div>
+<!-- image 11 -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3  col-xl-2 mt-3">
+    <div class="card">
+<img class="img-fluid rounded" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
+
+<div class="card-body">
+<h2 >Image-1</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
+</div>
+</div>
+</div>
+<!-- image 12 -->
+<div class="col-12 col-sm-6 col-md-4 col-lg-3  col-xl-2 mt-3">
+    <div class="card">
+<img class="img-fluid rounded" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" alt="">
+
+<div class="card-body">
+<h2 >Image-1</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem quasi facere ipsam, at sequi tempora eum suscipit minima, cumque voluptate eaque corrupti atque nihil ex in eligendi quisquam. Voluptatibus.</p>
+</div>
+</div>
+</div>
+
+    </div> 
+
+</div>
+<div class="container px-4">
+    <div class="col bg-white">
+        <h1 class=" d-flex justify-content-center">Contact</h1>
+   
+    <form action="" class="p-4">
+        <div class="form-group">
+        <label for="">Name</label>
+        <input type="text" class="text form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Email</label>
+        <input type="email" class="text form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Massage</label>
+       <textarea name="" id="" class="form-control" ></textarea>
+    </div>
+    <div class="form-group">
+    <button class="form-control bg-primary my-3 text-white">Submit</button>
+</div>
+    </form>
+</div>
+</div>
+<!-- footer -->
+<footer class=" mt-5 pt-3 bg-dark text-white">
+    <div class="row">
+        <div class="col ">
+        <p class="ps-3">
+            Copyright 2024 by Refsnes Data. All Rights Reserved. W3Schools is Powered by W3.CSS.
+
+        </p>
+        </div>
+        
+        <div class="col d-flex justify-content-end">
+            <ul class="list-inline pe-5">
+                <li class="list-inline-item"><a class="text-white text-decoration-none ps-2" href="#">Term of services</a></li>
+                <li class="list-inline-item"><a class="text-white text-decoration-none ps-2" href="#">Privacy policy</a></li>
+                <li class="list-inline-item"><a class="text-white text-decoration-none ps-2" href="#">Sitemap</a></li>
+            </ul>
+        </div>
     
+    </div>
+</footer>  
 
 
 
